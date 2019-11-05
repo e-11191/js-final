@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Exo|Literata&display=swap');
+	</style>
+	
+	<title>Unit 9</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+</head>
+
+<body>
+	
+	<div class="wrapper clearfix">
+
+		<header>
+
+		
+					
+			<h1>Monk's Cafe</h1>
+			<h2>"The Coffe Shop"</h2>
+				
+			<img src="images/toms-restaurant.jpg" alt="Tom's Restaurant" title="Tom's Restaurant" class="center">
+				
+
+		
+
+		</header>
+
+			<div class="wrapper clearfix">
+
+				<h2>Come Dine with Us</h2>	
+				
+				<div class="makereserv clearfix">
+					
+					<h3>Make a Reservation</h3>
+
+					<form style="float:left">
+    					<input type="text" placeholder="Your Name, Please">
+    				</form>
+    				<form style="float:right">
+    					<input type="text" placeholder="The Day to Reserve, Please">
+    				</form>
+    			
+
+					<div class=inner-div>
+    					<button>Confirm Reservation</button>
+    				</div>
+
+				</div>
+
+				<div class="existreserv">
+					
+					<h3>Existing Reservations</h3>
+
+					<table>
+						<thead>
+							<th>Column Header 1</th>
+							<th>Column Header 2</th>
+						</thead>
+						<tbody> [ form data will publish here ] </tbody>
+					</table>
+				</div>
+
+
+			</div>
+
+				<div class="wrapper clearfix">
+					<img src="images/jerry.jpg" alt="Jerry" title="Jerry" width="37.5%">
+					<div class="reviews">
+						<h2>Reviews</h2>
+						<p>blah-blah-blah</p>
+					</div>
+				</div>
+				
+				<!- The following data will change when js loads, below is static with lat/lon as given in directions->
+
+				<div id="map" class="wrapper clearfix center">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m22!1m12!1m3!1d58890.470984383865!2d-74.0004887776262!3d40.80546108029145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m7!3e0!4m4!2s40.8054491%2C%20-73.9654415!3m2!1d40.8054491!2d-73.9654415!4m0!5e1!3m2!1sen!2sus!4v1572979985976!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+				</div>
+
+				<script src="js/jquery-3.0.0.min.js"></script>
+				<script src="js/main.js"></script>
+
+				<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJAx5eyQdo9CRtYeQwIVXEBxWebB96cjM&callback=initMap"></script>
+
+
+</body>
+	
+</html>

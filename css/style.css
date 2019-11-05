@@ -1,0 +1,102 @@
+* {max-width: 100%; padding: 0; margin: 0; box-sizing: border-box;}
+
+body {
+	font-family: 'Literata', serif,'Exo', sans-serif;
+	font-size: 16px;
+}
+
+p {
+	font-family: Times, "Times New Roman", "serif";
+	text-align: center;
+	margin-top: 2em;
+}
+
+
+h1 {
+	font-family: 'Literata';
+	font-style: italic;
+	font-size: 2.5em;
+	padding: 1em;
+	color: blue;
+	font-weight: 90;
+	text-align: center;
+}
+h2 {
+	text-align: center;
+}
+h3 {
+	text-align: center;
+	padding: 0 0 1em 0;
+}
+h3 a:hover {
+	text-decoration: underline;
+}
+
+
+img {
+	 margin: 2em 0em
+}
+
+button {
+	display: block;
+	margin: 0 auto;
+	
+}
+
+#map {
+	
+}
+.wrapper {
+	width: 75%;
+	margin: 0 auto;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.inner-div {
+	margin-top: 4em;
+	
+	
+}
+
+
+/* Div Background */
+
+.main {
+	  background-color: #104735;
+}
+.makereserv {
+	background-color: #007049;
+	width: 50%;
+	padding: 1em 2em;
+	margin: 2em 0 0 0;
+	float: left;
+}
+.existreserv {
+	background-color: #f2f5dd;
+	width: 50%;
+	padding: 1em 2em;
+	margin: 2em 0 0 0;
+	float: right;
+}
+
+.reviews {
+	margin: 2em;
+	width: 50%;
+	float: right;
+}
+
+
